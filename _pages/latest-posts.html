@@ -1,0 +1,12 @@
+---
+layout: archive
+permalink: /latest-posts/
+title: "Latest Posts"
+author_profile: true
+---
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

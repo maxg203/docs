@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Documentation"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Max Goodridge"
+description              : "Feel free to contribute to this site as you feel appropriate."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : maxg203
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Max Goodridge"
+  avatar           : "/assets/images/max.jpg"
+  bio              : "Feel free to contribute to this site by writing a post and opening a pull request on GitHub."
+  location         : "Gloucestershire, UK"
+  youtube          : "https://www.youtube.com/channel/UCAx4nmhI7S1RcPiaG-Uw0tg"
+  email            : "youtube@maxgoodridge.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,22 +90,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "maxg203"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "maxg303"
   lastfm           :
-  linkedin         :
+  linkedin         : "max-goodridge-6199bb122"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "4548304/max-goodridge"
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "@maxg203"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
