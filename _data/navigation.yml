@@ -2,13 +2,11 @@
 main:
   - title: "Home"
     url: /
+  - title: "Tutorial Docs"
+    url: /docs/
+  - title: "Community Posts"
+    url: /community-posts/
   - title: "About"
     url: http://maxgoodridge.com
   - title: "Services"
     url: /services/
-  - title: "Latest Posts"
-    url: /latest-posts/
-  - title: "Community Posts"
-    url: /community-posts/
-  - title: "Categories"
-    url: /categories/
