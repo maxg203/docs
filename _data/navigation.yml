@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Tutorial Docs"
-    url: /docs/
+    url: /tutorials/
   - title: "Community Posts"
     url: /community-posts/
   - title: "About"

@@ -1,8 +1,10 @@
 ---
 layout: archive
-title: Tutorials
+permalink: /tutorials/
+title: YouTube Tutorial Documentation
+author_profile: true
 ---
 
-{% for series in site.specific-series-1 %}
-    <h2><a href="{{ series.url }}">{{ series.title }}</a></h2>
+{% for tutorial in site.tutorials %}
+    <h2><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
 {% endfor %}
