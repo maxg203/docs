@@ -253,3 +253,5 @@ collections:
         output: true
     python-for-beginners:
         output: true
+    git-basics:
+        output: true
