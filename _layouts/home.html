@@ -1,7 +1,10 @@
 ---
 layout: archive
 ---
-<h1>Welcome to Docs</h1>
-<h1>Contribution Guidelines</h1>
-<h1>Quick Links</h1>
+
+{% for post in site.categories.home %}
+    <h1>{{ post.title }}</h1>
+    {{ post.content }}
+{% endfor %}
+
 
