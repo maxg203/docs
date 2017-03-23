@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: Part 1
+title: 1 Introduction to the Django Web Framework for Python
 category: tutorials
 tags:
 - introduction
+video: 'https://www.youtube.com/embed/Fc2O3_2kax8'
 ---
 
 Here is part 1!
