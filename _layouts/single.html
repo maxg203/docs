@@ -33,6 +33,9 @@ layout: default
         </header>
       {% endunless %}
 
+        {% if page.video %}
+          <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
       <section class="page__content" itemprop="text">
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

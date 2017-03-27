@@ -8,4 +8,4 @@ tag:
 - info
 ---
 
-This is the documentation to go with all my [YouTube videos]() where I teach programming. You can watch the videos here and read (or copy the code out of) the written version!
+This is the documentation to go with all my [YouTube videos](https://www.youtube.com/channel/UCAx4nmhI7S1RcPiaG-Uw0tg) where I teach programming. You can watch the videos here and read (and copy the code out of) the written version!

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: 1 Introduction to the Django Web Framework for Python
 category: tutorials
 video: 'https://www.youtube.com/embed/Fc2O3_2kax8'
@@ -9,7 +9,7 @@ tags:
 
 _So you want to learn Django?_
 
-In whichever directory you want to store your project, create a folder called `Django` and change in to it:
+In whichever folder you want to store your project, create a folder called `Django` and change in to it:
 ``` shell
 mkdir Django
 cd Django
