@@ -2,9 +2,11 @@
 layout: single
 title: 1 Introduction to the Django Web Framework for Python
 category: tutorials
-video: 'https://www.youtube.com/embed/Fc2O3_2kax8'
+video: https://www.youtube.com/embed/Fc2O3_2kax8
 tags:
 - introduction
+- django
+- python
 ---
 
 _So you want to learn Django?_
@@ -33,6 +35,6 @@ This creates a good starter template for your new website that has the following
     ├── urls.py
     └── wsgi.py
 ```
-At this point, our new Django project is ready and working. To preview, type `python manage.py runserver` and go to [http://localhost:8000](http://localhost:8000) to see the default Django starter project home page.
+At this point, our new Django project is ready and working. To preview, type `python manage.py runserver` and go to [localhost:8000](http://localhost:8000) to see the default Django starter project home page.
 
-You can also access the default Django administration page by going to [http://localhost:8000/admin](http://localhost:8000/admin).
+You can also access the default Django administration page by going to [localhost:8000/admin](http://localhost:8000/admin).
