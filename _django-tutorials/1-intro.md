@@ -2,7 +2,7 @@
 layout: single
 title: 1 Introduction to the Django Web Framework for Python
 category: tutorials
-video: https://www.youtube.com/embed/Fc2O3_2kax8
+video: https://www.youtube.com/embed/Fc2O3_2kax8?list=PLw02n0FEB3E3VSHjyYMcFadtQORvl1Ssj
 tags:
 - introduction
 - django
