@@ -19,7 +19,7 @@ There's no need to delete the `login.html` template because we can use that late
 Let's also create a new file in the parent directory of the current templates called `accounts/templates/base.html`. This will hold all the HTML for everything that we want to look consistent through more than one template (or even our entire site as necessary). This can eliminate a vast amount of superfluous, duplicated code in the other templates.
 
 To be able to use that `base.html` template when the `home.html` template is rendered (like in the `home` view), it needs to be "extended". In `home.html`:
-``` html
+``` jinja
 {% raw %}
 {% extends 'base.html' %}
 {% endraw %}
@@ -27,7 +27,7 @@ To be able to use that `base.html` template when the `home.html` template is ren
 ```
 
 In the newly created `accounts/templates/base.html`:
-``` html
+``` jinja
 <!DOCTYPE html>
 <html>
     <head>
@@ -48,7 +48,7 @@ In the newly created `accounts/templates/base.html`:
 ```
 
 Now again in `home.html` we can further utilise the `base.html` template from which it extends:
-``` html
+``` jinja
 <!DOCTYPE html>
 <html>
     <head>

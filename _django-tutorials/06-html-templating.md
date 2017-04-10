@@ -20,7 +20,7 @@ def home(request):
 The dictionary `args` that is being passed in to `render` is optional, but passing it in here will give access to the contents of `name` and `numbers` in the corresponding template as `myName` and `numbers` respectively.
 
 Now that the template has access to the data sent from the view, we can show it by simply doing for example:
-``` html
+``` jinja
 <h1>{% raw %}{{ myName }}{% endraw %}</h1>
 ```
 In a similar fashion, we can also use this style of templating to be able to iterate through any iterable object (the `numbers` list in this case) like so:

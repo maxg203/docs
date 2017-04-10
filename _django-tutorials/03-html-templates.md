@@ -16,7 +16,7 @@ def home(request):
 Now we need to create that `accounts/login.html'` file that our view is now referencing above. By default, Django is going to look for templates in a folder called `templates` _within each Django app_. Let's create `templates/accounts/login.html` within the `accounts` app.
 
 Now that we've got the template created, add some HTML inside there so that we can test that it is being rendered as expected:
-``` html
+``` jinja
 <html>
     <head>
         <title>Login</title>

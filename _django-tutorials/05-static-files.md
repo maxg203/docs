@@ -16,7 +16,7 @@ body {
 }
 ```
 At this point if you go to [localhost:8000/account](http://localhost:8000/account) you will not yet see the CSS being applied. This is because it has not been added to the page because it has not been linked in the HTML file that we want to style. To do this, add the link in the `head` of the file:
-``` html
+``` jinja
 <link rel="stylesheet" href="{% raw %}{% static 'accounts/style.css' %}{% endraw %}" type="text/css">
 ```
 Django will automatically detect the CSS file in the `static` folder (or within a subfolder of it like in this example). It will also resolve that dynamic url for us so that we can move where we store the static files without breaking all of the links.

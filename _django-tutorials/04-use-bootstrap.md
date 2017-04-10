@@ -14,14 +14,14 @@ In `accounts/templates/accounts/login.html`, before we can start using Bootstrap
 I recommend that you refer to the [official Bootstrap getting started guide](http://getbootstrap.com/getting-started/#download-cdn) in order to get the latest CDN for this example. If you also want to use this, make sure you grab the link that corresponds with the Bootstrap CSS file, rather than the optional theme or the JavaScript file (unless you also want those things of course).
 
 In my case, I added this just below the title tag in the `head` of the HTML template:
-``` html
+``` jinja
 <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
 ```
 We now have access to the Bootstrap CSS, so let's go ahead and use some of the new classes in the `body`:
-``` html
+``` jinja
 <body>
     <div class class="container">
       <h1>Welcome</h1>
