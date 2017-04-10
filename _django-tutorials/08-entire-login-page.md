@@ -48,7 +48,7 @@ We can also refactor the `login.html` template in a similar fashion:
 This template forms the base of the login page, the final step is to put the form itself on the page. Under the login header `<h2>Login</h2>` above let's add that:
 ``` jinja
     <form method="post">
-        {% csrf_token %}
+        {% raw %}{% csrf_token %}{% endraw %}
         {{ form.as_p }}
         <button type="submit">Login</button>
     </form>

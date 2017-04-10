@@ -2,7 +2,7 @@
 layout: single
 title: 10 Explaining the Django Admin
 category: tutorials
-video: https://www.youtube.com/embed/3ETQf3TQ9gc?list=PLw02n0FEB3E3VSHjyYMcFadtQORvl1Ssj
+video: https://www.youtube.com/embed/wxXVK_-GJl4?list=PLw02n0FEB3E3VSHjyYMcFadtQORvl1Ssj
 tags:
 - django
 - python
