@@ -234,8 +234,13 @@
           </a>
         </li>
       {% endif %}
-
       {% include author-profile-custom-links.html %}
+
+      {% if author.paypal %}
+        <li>
+            <a href="https://www.paypal.me/{{ author.paypal }}" class="btn"><i class="fa fa-paypal" style="color: white"></i> Support</a>
+        </li>
+      {% endif %}
     </ul>
   </div>
 </div>

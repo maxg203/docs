@@ -1,3 +1,12 @@
+<form action="https://tinyletter.com/maxgoodridge" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/maxgoodridge', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <p><label for="tlemail">Enter your email address</label></p>
+    <p class="email_container">
+        <input type="text" class="page__footer-email-input" name="email" id="tlemail" />
+        <input class="page__footer-email-hidden" type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+    </p>
+</form>
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
@@ -19,4 +28,4 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.</div>

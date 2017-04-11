@@ -1,0 +1,12 @@
+---
+layout: archive
+permalink: /community-posts/
+title: "Community Posts"
+author_profile: true
+---
+
+{% for post in site.categories.community %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

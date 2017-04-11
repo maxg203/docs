@@ -2,4 +2,7 @@
 layout: archive
 ---
 
-<h1>Documentation is coming soon!</h1>
+{% for post in site.categories.home %}
+    <h1>{{ post.title }}</h1>
+    {{ post.content }}
+{% endfor %}
