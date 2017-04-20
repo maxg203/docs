@@ -3,8 +3,11 @@ layout: archive
 permalink: /django-tutorials/
 title: Django Tutorials
 author_profile: true
+uptodate: false
 ---
 
 {% for series in site.django-tutorials %}
     <h2><a href="{{ series.url }}">{{ series.title }}</a></h2>
 {% endfor %}
+
+{% include uptodate.html %}
