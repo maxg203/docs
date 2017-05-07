@@ -209,7 +209,6 @@ compress_html:
     envs: development
 
 
-# Defaults
 defaults:
   # _posts
   - scope:
@@ -223,7 +222,6 @@ defaults:
       share: true
       related: true
 
-# Collections
 collections:
     tutorials:
         output: true
@@ -232,4 +230,6 @@ collections:
     python-for-beginners:
         output: true
     git-basics:
+        output: true
+    bug-fixes:
         output: true

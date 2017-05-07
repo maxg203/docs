@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /bug-fixes/
+title: Bug Fixes
+author_profile: true
+uptodate: true
+---
+
+{% for series in site.bug-fixes %}
+    <h2><a href="{{ series.url }}">{{ series.title }}</a></h2>
+{% endfor %}
+
+{% include uptodate.html %}
