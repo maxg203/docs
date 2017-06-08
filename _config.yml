@@ -233,3 +233,5 @@ collections:
         output: true
     bug-fixes:
         output: true
+    todo-list:
+        output: true
