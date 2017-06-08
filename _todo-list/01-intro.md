@@ -8,7 +8,7 @@ tags:
 - angular-1
 - django-rest-framework
 ---
-This is a brand new series on how to build a JSON API using Angular and the Django Rest Framework. I will be using Python 3 for this project.
+This is a brand new series on how to build a JSON API using Angular 1 and the Django Rest Framework. I will be using Python 3 for this project.
 
 To get set up, make sure you have a virtual environment and install Django by doing ``pip install django==1.11.2`` with the virtual environment activated.
 
@@ -20,7 +20,7 @@ cd todo
 mkdir requirements
 pip freeze > requirements/base.txt
 ```
-Now we need to make sure our ``DJANGO_SETTINGS_MODULE`` environment variable is set correctly as below. I like to stick this in the virtual environment ``postactivate`` script so that it will always be set correctly assuming the virtual environment is activated.
+Now we need to make sure our ``DJANGO_SETTINGS_MODULE`` environment variable is set correctly as below. I like to stick this in the virtual environment's ``postactivate`` script so that it will always be set correctly assuming the virtual environment is activated.
 ``` shell
 export DJANGO_SETTINGS_MODULE=todo.settings
 ```
