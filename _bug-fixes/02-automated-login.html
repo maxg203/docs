@@ -9,4 +9,12 @@ tags:
 - django
 - python
 ---
+There is a little issue when we register a new user that, although a new user does register successfully, that user is not logged in automatically.
+
+When you go to the registration form, fill it in and submit it the first problem
+we hit is that there is a misconfigured URL namespace in `accounts/views.py`
+that prevents newly registered user from being able to access the home page. On
+line 20, where we redirect the user to the home page, change the redirect URL to
+`reverse('home:home')` which uses the `home` namespace instead of the `accounts`
+namespace that it was previously (we moved the home view since this code was written).
 
